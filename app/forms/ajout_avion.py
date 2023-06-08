@@ -4,7 +4,7 @@ from Flask import redirect, render_template
 def ajout_avion():
     if request.method=='Post':
          = request.form['']
-
+EOFError
 
         return redirect('/confirmation')
     return render_template('ajout_aviion')
